@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/user/bin/python3
 import random
 number = random.randint(-10000, 10000)
 pre = "Last digit of "
