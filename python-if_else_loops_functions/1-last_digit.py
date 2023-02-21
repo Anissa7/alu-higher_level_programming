@@ -7,7 +7,7 @@ if number > 0:
 else:
     digit =((number * -1) % 10) * -1
 
-    print("last digit of {:d} is{:d} .format(number,digit), end="")
+    print("last digit of {:d} is{:8} .format(number,digit), end="")
 if digit  == 0:
     print( "and is 0")
 elif number < or digit < 6:
