@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 f __name__ == "__main__":
         """Number of argument."""
-            import sys:wq
-
+            import sys
                 count = len(sys.argv) - 1
                     if count == 0:
                                 print("0 arguments.")
