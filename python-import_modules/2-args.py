@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 f __name__ == "__main__":
         """Number of argument."""
             import sys:wq
