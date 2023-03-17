@@ -1,1 +1,1 @@
-s is another mistake 
+s is the right thing to do 
