@@ -1,2 +1,2 @@
--- This is a scrit that list all the databases of the  MYSQL server 
+-- This is a scrit that lists  all the databases of your  MYSQL server 
 SHOW DATABASES:
