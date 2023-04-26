@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """defines a function that prints square with #"""
 
