@@ -1,10 +1,13 @@
 #!/usr/bin/python3
 def fizzbuzz():
-        for i in range(1, 101):
-                    if i % 3 == 0:
-                                    print("Fizz", end='')
-                                            if i % 5 == 0:
-                                                            print("Buzz", end='')
-                                                                    if i % 3 and i % 5:
-                                                                                    print("{:d}".format(i), end='')
-                                                                                            print(end=' ')
+    for x in range(1, 101):
+
+        """Check for multiples of 3 and 5 and replace with fizzbuzz"""
+        if x % 3 == 0 and x % 5 == 0:
+            print("FizzBuzz ", end="")
+        elif x % 3 == 0:
+            print("Fizz ", end="")
+        elif x % 5 == 0:
+            print("Buzz ", end="")
+        else:
+            print("{}".format(x), end=" ")
