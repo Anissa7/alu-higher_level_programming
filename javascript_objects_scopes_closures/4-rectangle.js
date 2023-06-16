@@ -24,3 +24,4 @@ module.exports = class Rectangle {
       this.height *= 2;
     }
   };
+  
