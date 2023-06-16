@@ -1,8 +1,18 @@
 #!/usr/bin/node
-function factorial (num) {
-    if (isNaN(num) || num <= 1) {
-      return 1;
-    }
-    return num * factorial(num - 1);
+
+const fact = parseInt(process.argv.slice(2)[0]);
+
+if (isNaN(fact) === true) {
+  console.log(1);
+} else {
+  const result = Factorial(fact);
+  console.log(result);
+}
+
+function Factorial (num) {
+  if (num === 1) {
+    return 1;
+  } else {
+    return (num * Factorial(num - 1));
   }
-  console.log(factorial(parseInt(process.argv[2])));
+}
